@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="PersonalChemist.Login_Options">
+    <ContentPage.Content>
+        <StackLayout>
+            <!--<ImageButton Source="~/Images/Facebook_Login.png" x:Name="fbLogin" Clicked="fbLogin_Clicked"/>-->
+
+
+            <Grid/>
+            <Grid/>
+            <Grid/>
+            <Grid/>
+            <Grid/>
+            <Grid/>
+            <Grid/>
+            <Grid/>
+            <Grid/>
+            <Grid/>
+            <Grid/>
+            <Grid/>
+            <Grid/>
+            <Grid/>
+            <Grid/>
+            <Grid/>
+            <Grid/>
+            <Grid/>
+            <Grid/>
+            <Grid/>
+            <Grid/>
+            <Grid/>
+            <Grid/>
+            <Grid/>
+            <Grid/>
+            <ImageButton  Source="Facebook_Login.png" BackgroundColor="Transparent" x:Name="fbLogins" Clicked="fbLogin_Clicked" TranslationY="100"/>
+
+
+
+            <ImageButton Source="Google_Login.png" x:Name="googleLogins" Clicked="googleLogins_Clicked" TranslationY="150" BackgroundColor="Transparent"/>
+
+            
+            <WebView x:Name="WebViews" Navigated="WebViews_Navigated" HeightRequest="800" TranslationY="190"></WebView>
+            
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

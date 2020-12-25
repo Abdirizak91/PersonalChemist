@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PersonalChemist.Forms.GetInvolved.Get_Involved">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Grid/>
+            <Grid/>
+            <Grid/>
+            <Grid/>
+            <Grid/>
+            <Grid/>
+            <Grid/>
+            <Label Text="Get Involved !" HorizontalOptions="Center" VerticalOptions="Center"/>
+            
+            <Grid/>
+            <Grid/>
+
+            <Label Text="Pick A Personalised Feature You Want Us To Provide" HorizontalOptions="Center" VerticalOptions="Center"/>
+
+            <Grid/>
+            <Grid/>
+            <Grid/>
+            <Grid/>
+            <Grid/>
+            <Grid/>
+            <Grid/>
+            <Grid/>
+            <Grid/>
+            <Grid/>
+            <Grid/>
+            <Grid/>
+            <Grid/>
+            <Grid/>
+            <Grid x:Name="Buttons">
+                <StackLayout>
+                    
+                    <Grid x:Name="TopSectionButtons">
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="Center" BackgroundColor="Transparent" VerticalOptions="Center">
+                            <ImageButton x:Name="BloodTest" Source="BloodTest.png" WidthRequest="100" HeightRequest="100" BackgroundColor="Transparent" Clicked="BloodTest_Clicked"/>
+                            <Grid/>
+                            <Grid/>
+                            <ImageButton x:Name="CareCall" Source="Care_Call.png" WidthRequest="100" HeightRequest="100" BackgroundColor="Transparent" Clicked="CareCall_Clicked"/>
+                            <Grid/>
+                            <Grid/>
+                            <ImageButton x:Name="CognitiveTherapy" Source="CognitiveTherapy.png" WidthRequest="100" HeightRequest="100" BackgroundColor="Transparent" Clicked="CognitiveTherapy_Clicked"/>
+                        </StackLayout>
+                    </Grid>
+                    <Grid/>
+                    <Grid/>
+                    <Grid x:Name="BottomSectionButtons">
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
+                            <ImageButton x:Name="DietaryPlan" Source="Dietary_Plan.png" WidthRequest="100" HeightRequest="100" BackgroundColor="Transparent" Clicked="DietaryPlan_Clicked"/>
+                            <Grid/>
+                            <Grid/>
+                            <ImageButton x:Name="PrivatePrescription" Source="PrivatePrescription.png" WidthRequest="100" HeightRequest="100" BackgroundColor="Transparent" Clicked="PrivatePrescription_Clicked"/>
+                            <Grid/>
+                            <Grid/>
+                            <ImageButton x:Name="Vitamin" Source="Vitamin.png" WidthRequest="100" HeightRequest="100" BackgroundColor="Transparent" Clicked="Vitamin_Clicked"/>
+                        </StackLayout>
+                    </Grid>
+
+                </StackLayout>
+            </Grid>
+
+            <Grid x:Name="SubmitButtonSection">
+                <RelativeLayout HorizontalOptions="Center" VerticalOptions="Center">
+                    <Grid>
+                        <ImageButton x:Name="SubmitButton" BackgroundColor="Transparent" Source="Submit.png" WidthRequest="100" Clicked="SubmitButton_Clicked"/>
+                    </Grid>
+                </RelativeLayout>
+            </Grid>
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

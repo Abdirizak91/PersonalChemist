@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PersonalChemist.Forms.How_To.How_To">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="How To"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+
+            <Label Text="If your enquiring about directions of use eg.g Medicine, get in touch below"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+
+            <Entry/>
+            <Button Text="Submit"/> 
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

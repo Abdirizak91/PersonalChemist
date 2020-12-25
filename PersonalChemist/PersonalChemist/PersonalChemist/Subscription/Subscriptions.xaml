@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PersonalChemist.Subscription.Subscriptions">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Frame x:Name="EmailFrame" HorizontalOptions="Center" TranslationY="50" CornerRadius="25">
+            <Label x:Name="UsersEmailLabel" Text="UsersEmailGoesHere" FontSize="15" TextColor="White"/>
+            </Frame>
+
+
+
+            <Grid>
+                <RelativeLayout>
+                <Frame BackgroundColor="SkyBlue" CornerRadius="25" HeightRequest="550" HasShadow="False" TranslationY="155">
+                    <StackLayout>
+                        
+                        
+                        <Grid>
+                            <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                                    <Label Text="PAYMENT DETAILS" FontSize="25" TextColor="White" FontAttributes="Bold"/>
+                            </StackLayout>
+                        </Grid>
+                        
+                        
+                        
+                        
+                        <Grid>
+                            <StackLayout>
+                                
+                                <Grid>
+                                    <StackLayout>
+                                <Label Text="Card Number" TextColor="white"/>
+                                <Entry x:Name="CardNumEntry"/>
+                                    </StackLayout>
+                                </Grid>
+                                
+                                   
+                                <Grid>
+                                    <StackLayout>
+                                        <Label Text="ExpYear" TextColor="white"/>
+                                        <Entry x:Name="ExpYearEntry"/>
+                                    </StackLayout>
+                                </Grid>
+                                   
+                                    <Grid>
+                                    <StackLayout>
+                                        <Label Text="ExpMonth" TextColor="white"/>
+                                        <Entry x:Name="ExpMonthEntry"/>
+                                    </StackLayout>
+                                </Grid>
+                                    
+                                <Grid>
+                                    <StackLayout>
+                                        <Label Text="CVC" TextColor="white"/>
+                                            <Entry x:Name="CVCEntry"/>
+                                        </StackLayout>
+                                </Grid>
+                                    
+                                
+                                <Grid>
+                                    <StackLayout HorizontalOptions="Center">
+                                        <RelativeLayout>
+                                            <Grid>
+                                                <Button Text="Submit" x:Name="Submit" Clicked="Submit_Clicked" />
+                                            </Grid>
+                                        </RelativeLayout>
+                                    </StackLayout>
+                                </Grid>
+                                    
+
+
+                                </StackLayout>
+                        </Grid>
+                        
+                    </StackLayout>
+
+
+                </Frame>
+                </RelativeLayout>
+
+            </Grid>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

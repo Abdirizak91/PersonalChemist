@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PersonalChemist.Forms.AboutMedicine.About_Medicine">
+    <ContentPage.Content>
+        <StackLayout>
+        <ScrollView>
+        <StackLayout>
+                    <Grid/>
+                    <Grid/>
+                    <Grid/>
+                    <Grid/>
+                    <Grid/>
+                    <Grid/>
+                    <Grid/>
+                    <Grid/>
+                    <Grid/>
+                    <Grid/>
+                    <Grid/>
+                    <Grid/>
+                    <Grid/>
+                    <Label Text="We Can Give You All Details About Any Medicine"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+                    <Grid/>
+                    <Grid/>
+                    <Grid/>
+                    <Grid/>
+
+                    <Label Text="Select your medicine if you can't find it, you can provide it"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            
+                    <Grid/>
+                    <Grid/>
+                    <Grid/>
+                    <Grid/>
+                    <Grid/>
+
+                    <Grid>
+                        <RelativeLayout HorizontalOptions="Center" VerticalOptions="Center">
+                            <Grid>
+                    <Picker x:Name="Medicines" WidthRequest="100" />
+                            </Grid>
+                        </RelativeLayout>
+                    </Grid>
+
+
+
+                    <Grid/>
+                    <Grid/>
+                    <Grid/>
+            
+                    <Grid>
+                        
+                    <RelativeLayout>
+                            <Grid>
+                    <Entry  x:Name="MedicineText" Placeholder="Other" WidthRequest="250" TranslationX="15"/>
+                            </Grid>
+                    </RelativeLayout>
+                        
+                    </Grid>
+
+                    <Grid/>
+                    <Grid/>
+                    <Grid/>
+                    <Grid/>
+                    <Grid/>
+                    <Grid/>
+                    <Grid/>
+                    <Grid/>
+                    <Grid/>
+
+                    <Label Text="Pick the main question type"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            
+                    <Grid/>
+                    <Grid/>
+                    <Grid/>
+
+
+                    <Grid x:Name="ButtonsSection">
+                            <StackLayout>
+                                
+                            <Grid>
+                                <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
+                                <ImageButton x:Name="InteractionButton" Source="Interaction.png" WidthRequest="100" HeightRequest="100" BackgroundColor="Transparent" Clicked="InteractionButton_Clicked"/>
+                                    <Grid/>
+                                    <Grid/>
+                                    <Grid/>
+                                    <Grid/>
+                                    <Grid/>
+                                    <ImageButton x:Name="SideAffectsButton" Source="SideAffects.png" WidthRequest="100" HeightRequest="100" BackgroundColor="Transparent" Clicked="SideAffectsButton_Clicked"/>
+                                </StackLayout>
+                            </Grid>
+                                
+                            <Grid/>
+                            <Grid/>
+                            <Grid/>
+                            <Grid/>
+                            <Grid/>
+                                
+                            <Grid>
+                                <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
+                                <ImageButton x:Name="PurchaseButton" Source="Purchase.png" WidthRequest="100" HeightRequest="100" BackgroundColor="Transparent" Clicked="PurchaseButton_Clicked"/>
+                                    <Grid/>
+                                    <Grid/>
+                                    <Grid/>
+                                    <Grid/>
+                                    <Grid/>
+                                <ImageButton x:Name="OtherButton" Source="Other.png" WidthRequest="100" HeightRequest="100" BackgroundColor="Transparent" Clicked="ImageButton_Clicked"/>
+                                </StackLayout>
+                            </Grid>
+                                
+                        </StackLayout>
+                    </Grid>
+            
+                    <Grid/>
+                    <Grid/>
+                    <Grid/>
+            
+                    <Grid x:Name="SubmitSection">
+                    
+                    <RelativeLayout HorizontalOptions="Center" VerticalOptions="Center">
+                            <Grid>
+                                <ImageButton x:Name="SubmitButton" BackgroundColor="Transparent" Source="Submit.png" WidthRequest="200" Clicked="SubmitButton_Clicked"/>
+                            </Grid>
+                    </RelativeLayout>
+                    
+                    </Grid>
+
+
+
+                </StackLayout>
+        </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

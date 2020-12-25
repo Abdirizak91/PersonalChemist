@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PersonalChemist.Landing.HealthPro">
+  <!--Pages can be added as references or inline-->
+  <ContentPage Title="Messenger">
+        <ContentPage.Content>
+            <StackLayout>
+                <Label Text="Message Chemist"
+               Margin="0,45,0,0"
+               HorizontalOptions="CenterAndExpand"
+               VerticalOptions="Start" />
+                <Label Text="Please make sure your connected to internet, press connect again if it doesnt work in the first try"
+               Margin="0,45,0,0"
+               HorizontalOptions="CenterAndExpand"
+               VerticalOptions="Start" TextColor="Red"/>
+                <Frame OutlineColor="Gray"
+               Margin="10,20,10,0"
+               WidthRequest="500"
+               HeightRequest="500"
+               HorizontalOptions="CenterAndExpand"
+               VerticalOptions="Start">
+                    <ScrollView HorizontalOptions="Start"
+                        VerticalOptions="Start">
+                        <StackLayout x:Name="messageList"
+                             HorizontalOptions="Start"
+                             VerticalOptions="Start">
+                        </StackLayout>
+                    </ScrollView>
+                </Frame>
+                <Entry x:Name="messageEntry"
+               WidthRequest="500"
+               HorizontalOptions="CenterAndExpand"
+               VerticalOptions="Start" 
+                   Placeholder="Message"/>
+                <Button x:Name="sendButton"
+                IsEnabled="False"
+                Text="Send"
+                WidthRequest="500"
+                HorizontalOptions="CenterAndExpand"
+                VerticalOptions="Start"
+                Clicked="SendButton_ClickedAsync"/>
+                <Button x:Name="connectButton"
+                Text="Connect"
+                WidthRequest="500"
+                HorizontalOptions="CenterAndExpand"
+                VerticalOptions="End"
+                Clicked="ConnectButton_ClickedAsync" />
+
+
+                <Button x:Name="EndChat" Text="Disconnect" Clicked="EndChat_Clicked"/>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+    
+    
+  <ContentPage Title="Form">
+      
+        <Label x:Name="UsersEmail"></Label>
+
+  </ContentPage>
+    
+    
+    
+  <ContentPage Title="Settings">
+      
+  </ContentPage>
+    
+</TabbedPage>

@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PersonalChemist.Landing.NewUser">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <StackLayout RelativeLayout.XConstraint="200" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                <Grid/>
+                <Grid/>
+                <Grid/>
+                <Grid/>
+                <Grid/>
+                <Grid/>
+                <Grid/>
+                <Grid/>
+                <Grid/>
+                <Grid/>
+                <Grid/>
+                <Grid/>
+                <Grid/>
+                <Grid/>
+                <Grid/>
+                <Grid/>
+                <Grid/>
+                <Grid/>
+                <Label HorizontalOptions="CenterAndExpand" HorizontalTextAlignment="Center" x:Name="UserEmail" />
+
+                <Label Text="PLEASE LET US KNOW WHO YOU ARE" HorizontalOptions="CenterAndExpand" FontSize="Medium"></Label>
+                <Grid/>
+                <Grid/>
+                <Grid/>
+                <Grid/>
+                <Grid/>
+                <Grid/>
+                <Grid/>
+                <Grid/>
+                <Grid/>
+
+                <Grid>
+                    <RelativeLayout>
+                        <Entry x:Name="Name" Placeholder="Name" WidthRequest="150"></Entry>
+                    </RelativeLayout>
+                </Grid>
+                    
+                <Grid/>
+                <Grid/>
+                <Grid/>
+                <Grid/>
+                <Grid/>
+                <Grid/>
+                <Grid/>
+                <Grid/>
+                <Grid/>
+                
+                <Entry x:Name="Number" Placeholder="Mobile Number" WidthRequest="150" TranslationY="7" TranslationX="-1"></Entry>
+                
+                <Grid>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
+                        
+                        <ImageButton x:Name="Home" Source="Home.png" BackgroundColor="Transparent" WidthRequest="100" HeightRequest="100" Clicked="Home_Clicked"></ImageButton>
+                                                  
+                        <ImageButton x:Name="Business" Source="Business.png" BackgroundColor="Transparent" WidthRequest="100" HeightRequest="100" Clicked="Business_Clicked"></ImageButton>
+
+                        <ImageButton x:Name="HealthPro" Source="Professional.png" BackgroundColor="Transparent" WidthRequest="100" HeightRequest="100" Clicked="HealthPro_Clicked"></ImageButton>
+                       
+                    </StackLayout>
+                </Grid>
+                <Grid/>
+                <Grid/>
+                <Grid/>
+                <Grid/>
+                <Grid/>
+                <Label Text="Select a profile" FontSize="Small" TranslationY="400" HorizontalOptions="Center" VerticalOptions="Center"></Label>
+
+            </StackLayout>
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

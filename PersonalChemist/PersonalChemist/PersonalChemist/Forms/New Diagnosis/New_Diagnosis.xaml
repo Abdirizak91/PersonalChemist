@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PersonalChemist.Forms.New_Diagnosis.New_Diagnosis">
+    <ContentPage.Content>
+        <StackLayout>
+            <ScrollView VerticalOptions="FillAndExpand">
+                <StackLayout>
+                <Label Text="We Diagnose Using The Professional Standard 'WWHAM'"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            
+            <Label Text="W - Who is the patient"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            
+            <Label Text="W - What are the symptoms"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            
+            <Label Text="H - How long you had these symptoms"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+
+            <Label Text="A - Action taken"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+
+            <Label Text="M - Medication being taken"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+
+                    <Grid/>
+                    <Grid/>
+                    <Grid/>
+                    <Grid/>
+                    <Grid/>
+                    <Grid/>
+                    <Grid/>
+                    <Grid/>
+                    <Grid/>
+                    <Grid/>
+                    <Grid/>
+                    <Grid/>
+                    <Grid/>
+                    <Grid/>
+                    
+                    
+                    <StackLayout>
+                        
+                    <Grid x:Name="PatientSection">
+
+
+                            <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                                <Label Text="Who is the patient ?"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+                                <StackLayout Orientation="Horizontal">
+            <ImageButton x:Name="BabyImage" Source="Baby.png" WidthRequest="100" HeightRequest="100" BackgroundColor="Transparent" Clicked="BabyImage_Clicked"></ImageButton>
+            <ImageButton x:Name="ChildImage" Source="Child.png" WidthRequest="100" HeightRequest="100" BackgroundColor="Transparent" Clicked="ChildImage_Clicked"></ImageButton>
+                                    </StackLayout>
+                            
+                                <StackLayout Orientation="Horizontal">
+            <ImageButton x:Name="TeenImage" Source="Teen.png" WidthRequest="100" HeightRequest="100" BackgroundColor="Transparent" Clicked="TeenImage_Clicked"></ImageButton>
+            <ImageButton x:Name="ElderyImage" Source="Eldery.png" WidthRequest="100" HeightRequest="100" BackgroundColor="Transparent" Clicked="ElderyImage_Clicked"></ImageButton>
+                                </StackLayout>
+                            </StackLayout>
+                    </Grid>
+
+
+                    <Grid x:Name="SymptomSection" HorizontalOptions="Center" VerticalOptions="Center">
+                            <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                                
+                    <Label Text="Pick One Main Symptom"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+                                <StackLayout Orientation="Horizontal">
+            <ImageButton x:Name="BowelSymptom" Source="StomachDisorders.png" WidthRequest="100" HeightRequest="100" BackgroundColor="Transparent"  Clicked="BowelSymptom_Clicked"></ImageButton>
+            <ImageButton x:Name="ColdSymptom" Source="Runny_Nose.png" WidthRequest="100" HeightRequest="100" BackgroundColor="Transparent" Clicked="ColdSymptom_Clicked"></ImageButton>
+            <ImageButton x:Name="DizzinessSymptom" Source="Dizziness.png" WidthRequest="100" HeightRequest="100" BackgroundColor="Transparent" Clicked="DizzinessSymptom_Clicked"></ImageButton>
+                                    </StackLayout>
+
+                                <StackLayout Orientation="Horizontal">
+            <ImageButton x:Name="EarsSymptom" Source="Ear_Ache.png" WidthRequest="100" HeightRequest="100" BackgroundColor="Transparent" Clicked="EarsSymptom_Clicked"></ImageButton>
+            <ImageButton x:Name="EyesSymptom" Source="Eye_Infection.png" WidthRequest="100" HeightRequest="100" BackgroundColor="Transparent" Clicked="EyesSymptom_Clicked"></ImageButton>
+            <ImageButton x:Name="FungalSymtom" Source="Dry_Eyes.png" WidthRequest="100" HeightRequest="100" BackgroundColor="Transparent" Clicked="FungalSymtom_Clicked"></ImageButton>
+                                    </StackLayout>
+
+                                <StackLayout Orientation="Horizontal">
+            <ImageButton x:Name="NauseaSymptom" Source="Nausea.png" WidthRequest="100" HeightRequest="100" BackgroundColor="Transparent" Clicked="NauseaSymptom_Clicked"></ImageButton>
+            <ImageButton x:Name="NoseSymptom" Source="Sinus.png" WidthRequest="100" HeightRequest="100" BackgroundColor="Transparent" Clicked="NoseSymptom_Clicked"></ImageButton>
+            <ImageButton x:Name="OtherSymptom" Source="Other.png" WidthRequest="100" HeightRequest="100" BackgroundColor="Transparent" Clicked="OtherSymptom_Clicked"></ImageButton>
+                                    </StackLayout>
+
+                                <StackLayout Orientation="Horizontal">
+            <ImageButton x:Name="PainSymptom" Source="Pain.png" WidthRequest="100" HeightRequest="100" BackgroundColor="Transparent" Clicked="PainSymptom_Clicked"></ImageButton>
+            <ImageButton x:Name="SkinSymptom" Source="Skin_Issues.png" WidthRequest="100" HeightRequest="100" BackgroundColor="Transparent" Clicked="SkinSymptom_Clicked"></ImageButton>
+            <ImageButton x:Name="SleepingSymptom" Source="Sleep_Issues.png" WidthRequest="100" HeightRequest="100" BackgroundColor="Transparent" Clicked="SleepingSymptom_Clicked"></ImageButton>
+                                </StackLayout>
+                                
+                                
+                            </StackLayout>
+                    </Grid>
+                        
+                        
+                        
+                        
+                        
+                    </StackLayout>
+
+                    <Grid x:Name="HowLongSection" HorizontalOptions="Center" VerticalOptions="Center">
+                        <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                            <Label Text="How long have you had these symptoms"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+
+                            <ImageButton x:Name="OneDay" Source="OneDay.png" WidthRequest="100" HeightRequest="100" Clicked="OneDay_Clicked" BackgroundColor="Transparent"/>
+                            <ImageButton x:Name="ThreeDays" Source="ThreeDays.png" WidthRequest="100" HeightRequest="100" Clicked="ThreeDays_Clicked" BackgroundColor="Transparent"/>
+                            <ImageButton x:Name="OneWeek" Source="OneWeek.png" WidthRequest="100" HeightRequest="100" Clicked="OneWeek_Clicked" BackgroundColor="Transparent"/>
+                            <ImageButton x:Name="OverAWeek" Source="OverAWeek.png" WidthRequest="100" HeightRequest="100" Clicked="OverAWeek_Clicked" BackgroundColor="Transparent"/>
+                        </StackLayout>
+                    </Grid>
+
+
+                    <Grid x:Name="ActionSection" HorizontalOptions="Center" VerticalOptions="Center">
+
+
+                        <StackLayout>
+                        <Label Text="Action Taken Yet"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+                        
+                        
+
+
+
+                            <Grid>
+                                <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
+                                    <ImageButton x:Name="NonePng" Source="Rest.png" Clicked="NonePng_Clicked" WidthRequest="100" HeightRequest="100" BackgroundColor="Transparent"></ImageButton>
+                                    <ImageButton x:Name="DocPng" Source="WaitingForGP.png" Clicked="RestPng_Clicked" WidthRequest="100" HeightRequest="100" BackgroundColor="Transparent"></ImageButton>
+                                    <ImageButton x:Name="MedPng" Source="TookMedicine.png" Clicked="MedPng_Clicked" WidthRequest="100" HeightRequest="100" BackgroundColor="Transparent"></ImageButton>
+                                </StackLayout>
+                            </Grid>
+
+                            <Grid>
+                                <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
+                                    <ImageButton x:Name="OtherPng" Source="Other.png" Clicked="OtherPng_Clicked" WidthRequest="100" HeightRequest="100" BackgroundColor="Transparent"></ImageButton>
+                                </StackLayout>
+                            </Grid>
+                            
+                        
+                            
+                            <Entry x:Name="Other" Placeholder="Other" WidthRequest="100"/>
+
+                            <Grid/>
+                            <Grid/>
+                            <Grid/>
+                            <Grid/>
+                            <Grid/>
+
+                            <Label Text="Medication Taken"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+
+                            <Entry Placeholder="Medication" WidthRequest="100"/>
+                            <Grid/>
+                            <Grid/>
+                            <Grid/>
+                            <Grid/>
+                            <Grid/>
+                            
+                            
+                        </StackLayout>
+                    </Grid>
+
+                    <ImageButton x:Name="SubmitForm" BackgroundColor="Transparent" Source="Submit.png" WidthRequest="100" Clicked="SubmitForm_Clicked"/>
+
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

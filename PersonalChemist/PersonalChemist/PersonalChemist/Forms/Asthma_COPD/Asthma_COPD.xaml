@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PersonalChemist.Forms.Asthma_COPD.Asthma_COPD">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+            <Grid/>
+            <Grid/>
+            <Grid/>
+            <Grid/>
+            <Grid/>
+            <Grid/>
+            <Grid/>
+            <Grid/>
+            
+            <Label Text="Correct Inhaler Use Is Key For Improving Asthma, COPD and Other Respiratory Disorders" HorizontalOptions="Center" VerticalOptions="Center"/>
+
+            <Grid/>
+            <Grid/>
+            <Grid/>
+            <Grid/>
+            <Grid/>
+            <Grid/>
+            <Grid/>
+            <Grid/>
+
+            <Label Text="Pick Your Main Condition" TranslationX="10"/>
+            
+            <Grid/>
+            <Grid/>
+            
+            <Grid>
+                <RelativeLayout HorizontalOptions="Center" VerticalOptions="Center">
+                    <Grid>
+            <Picker x:Name="Condition" WidthRequest="100" />
+                    </Grid>
+                </RelativeLayout>
+            </Grid>
+            
+            <Grid/>
+            <Grid/>
+            <Grid/>
+            <Grid/>
+
+            <Entry Placeholder="Other" IsVisible="false"/>
+            
+            <Grid/>
+            <Grid/>
+            <Grid/>
+            <Grid/>
+            <Grid/>
+            
+            <Label Text="Pick Your Main Inhaler" TranslationX="10"/>
+            
+            <Grid/>
+            <Grid/>
+            <Grid/>
+            <Grid/>
+            <Grid/>
+
+            <Grid>
+                <RelativeLayout HorizontalOptions="Center" VerticalOptions="Center">
+                    <Grid>
+            <Picker x:Name="Inhaler" WidthRequest="100"/>
+                    </Grid>
+                </RelativeLayout>
+            </Grid>
+
+            <Grid/>
+            <Grid/>
+            <Grid/>
+            <Grid/>
+            <Grid/>
+            <Entry Placeholder="Other" IsVisible="false" WidthRequest="100"/>
+            <Grid/>
+            <Grid/>
+
+            <Grid>
+                <RelativeLayout VerticalOptions="Center" HorizontalOptions="Center">
+                    <Grid>
+                        <ImageButton  x:Name="SubmitButton" BackgroundColor="Transparent" Source="Submit.png" WidthRequest="100" VerticalOptions="Center" HorizontalOptions="Center" Clicked="SubmitButton_Clicked"/>
+                    </Grid>
+                </RelativeLayout>
+            </Grid>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

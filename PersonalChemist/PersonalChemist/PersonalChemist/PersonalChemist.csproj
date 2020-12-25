@@ -1,0 +1,329 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>portable</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\Forms\AsthmaCOPD.png" />
+    <None Remove="Images\Forms\A_E.png" />
+    <None Remove="Images\Forms\Contribute.png" />
+    <None Remove="Images\Forms\Existing_Condition.png" />
+    <None Remove="Images\Forms\How_To.png" />
+    <None Remove="Images\Forms\MedicineUseReview.png" />
+    <None Remove="Images\Forms\Medicine_info.png" />
+    <None Remove="Images\Forms\New_Diagnosis.png" />
+    <None Remove="Images\Forms\Personal.png" />
+    <None Remove="Images\IndividualForms\ANE\ANE_FORM.png" />
+    <None Remove="Images\IndividualForms\Asthma\Asthma_COPD1.png" />
+    <None Remove="Images\IndividualForms\Asthma\Asthma_COPD2.png" />
+    <None Remove="Images\IndividualForms\Contribution\Blog.png" />
+    <None Remove="Images\IndividualForms\Contribution\Campaign.png" />
+    <None Remove="Images\IndividualForms\Contribution\DEV.png" />
+    <None Remove="Images\IndividualForms\Contribution\GFX.png" />
+    <None Remove="Images\IndividualForms\Contribution\Social.png" />
+    <None Remove="Images\IndividualForms\Contribution\UXUI.png" />
+    <None Remove="Images\IndividualForms\ExistingCondition\Alcohol.png" />
+    <None Remove="Images\IndividualForms\ExistingCondition\AngerOrStress.png" />
+    <None Remove="Images\IndividualForms\ExistingCondition\Anxiety.png" />
+    <None Remove="Images\IndividualForms\ExistingCondition\Arthritis.png" />
+    <None Remove="Images\IndividualForms\ExistingCondition\AsthmaCOPD.png" />
+    <None Remove="Images\IndividualForms\ExistingCondition\Cancer.png" />
+    <None Remove="Images\IndividualForms\ExistingCondition\Chloesterol.png" />
+    <None Remove="Images\IndividualForms\ExistingCondition\Defiency.png" />
+    <None Remove="Images\IndividualForms\ExistingCondition\Dementia.png" />
+    <None Remove="Images\IndividualForms\ExistingCondition\Diabetes.png" />
+    <None Remove="Images\IndividualForms\ExistingCondition\DrugAbuse.png" />
+    <None Remove="Images\IndividualForms\ExistingCondition\HeartDisorders.png" />
+    <None Remove="Images\IndividualForms\ExistingCondition\HighBloodPressure.png" />
+    <None Remove="Images\IndividualForms\ExistingCondition\Incontinence.png" />
+    <None Remove="Images\IndividualForms\ExistingCondition\JointIssues.png" />
+    <None Remove="Images\IndividualForms\ExistingCondition\MalAbsorbtion.png" />
+    <None Remove="Images\IndividualForms\ExistingCondition\OverOrUnderWeight.png" />
+    <None Remove="Images\IndividualForms\ExistingCondition\Pain.png" />
+    <None Remove="Images\IndividualForms\ExistingCondition\Parkinsons.png" />
+    <None Remove="Images\IndividualForms\ExistingCondition\SkinProblems.png" />
+    <None Remove="Images\IndividualForms\ExistingCondition\SleepIssues.png" />
+    <None Remove="Images\IndividualForms\ExistingCondition\StomachDisorders.png" />
+    <None Remove="Images\IndividualForms\ExistingCondition\VitaminDefiency.png" />
+    <None Remove="Images\IndividualForms\MedicineInfo\Interaction.png" />
+    <None Remove="Images\IndividualForms\MedicineInfo\Other.png" />
+    <None Remove="Images\IndividualForms\MedicineInfo\Purchase.png" />
+    <None Remove="Images\IndividualForms\MedicineInfo\SideAffects.png" />
+    <None Remove="Images\IndividualForms\NewDiagnosis\Acidity.png" />
+    <None Remove="Images\IndividualForms\NewDiagnosis\Acne.png" />
+    <None Remove="Images\IndividualForms\NewDiagnosis\Adult.png" />
+    <None Remove="Images\IndividualForms\NewDiagnosis\Allergy.png" />
+    <None Remove="Images\IndividualForms\NewDiagnosis\Anxiety.png" />
+    <None Remove="Images\IndividualForms\NewDiagnosis\Baby.png" />
+    <None Remove="Images\IndividualForms\NewDiagnosis\Blocked_Nose.png" />
+    <None Remove="Images\IndividualForms\NewDiagnosis\Blocked_Nose2.png" />
+    <None Remove="Images\IndividualForms\NewDiagnosis\Child.png" />
+    <None Remove="Images\IndividualForms\NewDiagnosis\Constipation.png" />
+    <None Remove="Images\IndividualForms\NewDiagnosis\Cough.png" />
+    <None Remove="Images\IndividualForms\NewDiagnosis\Cystitis.png" />
+    <None Remove="Images\IndividualForms\NewDiagnosis\Diorrhea.png" />
+    <None Remove="Images\IndividualForms\NewDiagnosis\Dizziness.png" />
+    <None Remove="Images\IndividualForms\NewDiagnosis\Dry_Eyes.png" />
+    <None Remove="Images\IndividualForms\NewDiagnosis\Dry_Mouth.png" />
+    <None Remove="Images\IndividualForms\NewDiagnosis\Ear_Ache.png" />
+    <None Remove="Images\IndividualForms\NewDiagnosis\Ear_Wax.png" />
+    <None Remove="Images\IndividualForms\NewDiagnosis\Eldery.png" />
+    <None Remove="Images\IndividualForms\NewDiagnosis\Eye_Infection.png" />
+    <None Remove="Images\IndividualForms\NewDiagnosis\Fever.png" />
+    <None Remove="Images\IndividualForms\NewDiagnosis\Headache.png" />
+    <None Remove="Images\IndividualForms\NewDiagnosis\Indigestion.png" />
+    <None Remove="Images\IndividualForms\NewDiagnosis\Injury.png" />
+    <None Remove="Images\IndividualForms\NewDiagnosis\Intolerence.png" />
+    <None Remove="Images\IndividualForms\NewDiagnosis\Low_Mood.png" />
+    <None Remove="Images\IndividualForms\NewDiagnosis\Migraine.png" />
+    <None Remove="Images\IndividualForms\NewDiagnosis\Mouth_Ulcers.png" />
+    <None Remove="Images\IndividualForms\NewDiagnosis\Nausea.png" />
+    <None Remove="Images\IndividualForms\NewDiagnosis\OneDay.png" />
+    <None Remove="Images\IndividualForms\NewDiagnosis\OneWeek.png" />
+    <None Remove="Images\IndividualForms\NewDiagnosis\Other.png" />
+    <None Remove="Images\IndividualForms\NewDiagnosis\Other2.png" />
+    <None Remove="Images\IndividualForms\NewDiagnosis\Other3.png" />
+    <None Remove="Images\IndividualForms\NewDiagnosis\OverAWeek.png" />
+    <None Remove="Images\IndividualForms\NewDiagnosis\OverAWeek2.png" />
+    <None Remove="Images\IndividualForms\NewDiagnosis\OverAWeek3.png" />
+    <None Remove="Images\IndividualForms\NewDiagnosis\Pain.png" />
+    <None Remove="Images\IndividualForms\NewDiagnosis\Rest.png" />
+    <None Remove="Images\IndividualForms\NewDiagnosis\Runny_Nose.png" />
+    <None Remove="Images\IndividualForms\NewDiagnosis\Sinus.png" />
+    <None Remove="Images\IndividualForms\NewDiagnosis\Skin_Issues.png" />
+    <None Remove="Images\IndividualForms\NewDiagnosis\Sleep_Issues.png" />
+    <None Remove="Images\IndividualForms\NewDiagnosis\Sore_Lips.png" />
+    <None Remove="Images\IndividualForms\NewDiagnosis\StomachCramp.png" />
+    <None Remove="Images\IndividualForms\NewDiagnosis\Teen.png" />
+    <None Remove="Images\IndividualForms\NewDiagnosis\ThreeDays.png" />
+    <None Remove="Images\IndividualForms\NewDiagnosis\Thrush.png" />
+    <None Remove="Images\IndividualForms\NewDiagnosis\Tiredness.png" />
+    <None Remove="Images\IndividualForms\NewDiagnosis\Tired_Eyes.png" />
+    <None Remove="Images\IndividualForms\NewDiagnosis\TookMedicine.png" />
+    <None Remove="Images\IndividualForms\NewDiagnosis\Tooth_Ache.png" />
+    <None Remove="Images\IndividualForms\NewDiagnosis\WaitingForGP.png" />
+    <None Remove="Images\IndividualForms\NewDiagnosis\Wind.png" />
+    <None Remove="Images\IndividualForms\Personal\BloodTest.png" />
+    <None Remove="Images\IndividualForms\Personal\Care_Call.png" />
+    <None Remove="Images\IndividualForms\Personal\CognitiveTherapy.png" />
+    <None Remove="Images\IndividualForms\Personal\Dietary_Plan.png" />
+    <None Remove="Images\IndividualForms\Personal\PrivatePrescription.png" />
+    <None Remove="Images\IndividualForms\Personal\Vitamin.png" />
+    <None Remove="Images\OtherButtons\Accept.png" />
+    <None Remove="Images\OtherButtons\Business.png" />
+    <None Remove="Images\OtherButtons\Consultation.png" />
+    <None Remove="Images\OtherButtons\Enter.png" />
+    <None Remove="Images\OtherButtons\Facebook_Login.png" />
+    <None Remove="Images\OtherButtons\Feedback.png" />
+    <None Remove="Images\OtherButtons\Google_Login.png" />
+    <None Remove="Images\OtherButtons\Home.png" />
+    <None Remove="Images\OtherButtons\Messenger.png" />
+    <None Remove="Images\OtherButtons\No.png" />
+    <None Remove="Images\OtherButtons\Other.png" />
+    <None Remove="Images\OtherButtons\Problem.png" />
+    <None Remove="Images\OtherButtons\Professional.png" />
+    <None Remove="Images\OtherButtons\Send.png" />
+    <None Remove="Images\OtherButtons\Settings.png" />
+    <None Remove="Images\OtherButtons\Submit.png" />
+    <None Remove="Images\OtherButtons\Terms.png" />
+    <None Remove="Images\OtherButtons\Yes.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Images\Forms\AsthmaCOPD.png" />
+    <EmbeddedResource Include="Images\Forms\A_E.png" />
+    <EmbeddedResource Include="Images\Forms\Contribute.png" />
+    <EmbeddedResource Include="Images\Forms\Existing_Condition.png" />
+    <EmbeddedResource Include="Images\Forms\How_To.png" />
+    <EmbeddedResource Include="Images\Forms\MedicineUseReview.png" />
+    <EmbeddedResource Include="Images\Forms\Medicine_info.png" />
+    <EmbeddedResource Include="Images\Forms\New_Diagnosis.png" />
+    <EmbeddedResource Include="Images\Forms\Personal.png" />
+    <EmbeddedResource Include="Images\IndividualForms\ANE\ANE_FORM.png" />
+    <EmbeddedResource Include="Images\IndividualForms\Asthma\Asthma_COPD1.png" />
+    <EmbeddedResource Include="Images\IndividualForms\Asthma\Asthma_COPD2.png" />
+    <EmbeddedResource Include="Images\IndividualForms\Contribution\Blog.png" />
+    <EmbeddedResource Include="Images\IndividualForms\Contribution\Campaign.png" />
+    <EmbeddedResource Include="Images\IndividualForms\Contribution\DEV.png" />
+    <EmbeddedResource Include="Images\IndividualForms\Contribution\GFX.png" />
+    <EmbeddedResource Include="Images\IndividualForms\Contribution\Social.png" />
+    <EmbeddedResource Include="Images\IndividualForms\Contribution\UXUI.png" />
+    <EmbeddedResource Include="Images\IndividualForms\ExistingCondition\Alcohol.png" />
+    <EmbeddedResource Include="Images\IndividualForms\ExistingCondition\AngerOrStress.png" />
+    <EmbeddedResource Include="Images\IndividualForms\ExistingCondition\Anxiety.png" />
+    <EmbeddedResource Include="Images\IndividualForms\ExistingCondition\Arthritis.png" />
+    <EmbeddedResource Include="Images\IndividualForms\ExistingCondition\AsthmaCOPD.png" />
+    <EmbeddedResource Include="Images\IndividualForms\ExistingCondition\Cancer.png" />
+    <EmbeddedResource Include="Images\IndividualForms\ExistingCondition\Chloesterol.png" />
+    <EmbeddedResource Include="Images\IndividualForms\ExistingCondition\Defiency.png" />
+    <EmbeddedResource Include="Images\IndividualForms\ExistingCondition\Dementia.png" />
+    <EmbeddedResource Include="Images\IndividualForms\ExistingCondition\Diabetes.png" />
+    <EmbeddedResource Include="Images\IndividualForms\ExistingCondition\DrugAbuse.png" />
+    <EmbeddedResource Include="Images\IndividualForms\ExistingCondition\HeartDisorders.png" />
+    <EmbeddedResource Include="Images\IndividualForms\ExistingCondition\HighBloodPressure.png" />
+    <EmbeddedResource Include="Images\IndividualForms\ExistingCondition\Incontinence.png" />
+    <EmbeddedResource Include="Images\IndividualForms\ExistingCondition\JointIssues.png" />
+    <EmbeddedResource Include="Images\IndividualForms\ExistingCondition\MalAbsorbtion.png" />
+    <EmbeddedResource Include="Images\IndividualForms\ExistingCondition\OverOrUnderWeight.png" />
+    <EmbeddedResource Include="Images\IndividualForms\ExistingCondition\Pain.png" />
+    <EmbeddedResource Include="Images\IndividualForms\ExistingCondition\Parkinsons.png" />
+    <EmbeddedResource Include="Images\IndividualForms\ExistingCondition\SkinProblems.png" />
+    <EmbeddedResource Include="Images\IndividualForms\ExistingCondition\SleepIssues.png" />
+    <EmbeddedResource Include="Images\IndividualForms\ExistingCondition\StomachDisorders.png" />
+    <EmbeddedResource Include="Images\IndividualForms\ExistingCondition\VitaminDefiency.png" />
+    <EmbeddedResource Include="Images\IndividualForms\MedicineInfo\Interaction.png" />
+    <EmbeddedResource Include="Images\IndividualForms\MedicineInfo\Other.png" />
+    <EmbeddedResource Include="Images\IndividualForms\MedicineInfo\Purchase.png" />
+    <EmbeddedResource Include="Images\IndividualForms\MedicineInfo\SideAffects.png" />
+    <EmbeddedResource Include="Images\IndividualForms\NewDiagnosis\Acidity.png" />
+    <EmbeddedResource Include="Images\IndividualForms\NewDiagnosis\Acne.png" />
+    <EmbeddedResource Include="Images\IndividualForms\NewDiagnosis\Adult.png" />
+    <EmbeddedResource Include="Images\IndividualForms\NewDiagnosis\Allergy.png" />
+    <EmbeddedResource Include="Images\IndividualForms\NewDiagnosis\Anxiety.png" />
+    <EmbeddedResource Include="Images\IndividualForms\NewDiagnosis\Baby.png" />
+    <EmbeddedResource Include="Images\IndividualForms\NewDiagnosis\Blocked_Nose.png" />
+    <EmbeddedResource Include="Images\IndividualForms\NewDiagnosis\Blocked_Nose2.png" />
+    <EmbeddedResource Include="Images\IndividualForms\NewDiagnosis\Child.png" />
+    <EmbeddedResource Include="Images\IndividualForms\NewDiagnosis\Constipation.png" />
+    <EmbeddedResource Include="Images\IndividualForms\NewDiagnosis\Cough.png" />
+    <EmbeddedResource Include="Images\IndividualForms\NewDiagnosis\Cystitis.png" />
+    <EmbeddedResource Include="Images\IndividualForms\NewDiagnosis\Diorrhea.png" />
+    <EmbeddedResource Include="Images\IndividualForms\NewDiagnosis\Dizziness.png" />
+    <EmbeddedResource Include="Images\IndividualForms\NewDiagnosis\Dry_Eyes.png" />
+    <EmbeddedResource Include="Images\IndividualForms\NewDiagnosis\Dry_Mouth.png" />
+    <EmbeddedResource Include="Images\IndividualForms\NewDiagnosis\Ear_Ache.png" />
+    <EmbeddedResource Include="Images\IndividualForms\NewDiagnosis\Ear_Wax.png" />
+    <EmbeddedResource Include="Images\IndividualForms\NewDiagnosis\Eldery.png" />
+    <EmbeddedResource Include="Images\IndividualForms\NewDiagnosis\Eye_Infection.png" />
+    <EmbeddedResource Include="Images\IndividualForms\NewDiagnosis\Fever.png" />
+    <EmbeddedResource Include="Images\IndividualForms\NewDiagnosis\Headache.png" />
+    <EmbeddedResource Include="Images\IndividualForms\NewDiagnosis\Indigestion.png" />
+    <EmbeddedResource Include="Images\IndividualForms\NewDiagnosis\Injury.png" />
+    <EmbeddedResource Include="Images\IndividualForms\NewDiagnosis\Intolerence.png" />
+    <EmbeddedResource Include="Images\IndividualForms\NewDiagnosis\Low_Mood.png" />
+    <EmbeddedResource Include="Images\IndividualForms\NewDiagnosis\Migraine.png" />
+    <EmbeddedResource Include="Images\IndividualForms\NewDiagnosis\Mouth_Ulcers.png" />
+    <EmbeddedResource Include="Images\IndividualForms\NewDiagnosis\Nausea.png" />
+    <EmbeddedResource Include="Images\IndividualForms\NewDiagnosis\OneDay.png" />
+    <EmbeddedResource Include="Images\IndividualForms\NewDiagnosis\OneWeek.png" />
+    <EmbeddedResource Include="Images\IndividualForms\NewDiagnosis\Other.png" />
+    <EmbeddedResource Include="Images\IndividualForms\NewDiagnosis\Other2.png" />
+    <EmbeddedResource Include="Images\IndividualForms\NewDiagnosis\Other3.png" />
+    <EmbeddedResource Include="Images\IndividualForms\NewDiagnosis\OverAWeek.png" />
+    <EmbeddedResource Include="Images\IndividualForms\NewDiagnosis\OverAWeek2.png" />
+    <EmbeddedResource Include="Images\IndividualForms\NewDiagnosis\OverAWeek3.png" />
+    <EmbeddedResource Include="Images\IndividualForms\NewDiagnosis\Pain.png" />
+    <EmbeddedResource Include="Images\IndividualForms\NewDiagnosis\Rest.png" />
+    <EmbeddedResource Include="Images\IndividualForms\NewDiagnosis\Runny_Nose.png" />
+    <EmbeddedResource Include="Images\IndividualForms\NewDiagnosis\Sinus.png" />
+    <EmbeddedResource Include="Images\IndividualForms\NewDiagnosis\Skin_Issues.png" />
+    <EmbeddedResource Include="Images\IndividualForms\NewDiagnosis\Sleep_Issues.png" />
+    <EmbeddedResource Include="Images\IndividualForms\NewDiagnosis\Sore_Lips.png" />
+    <EmbeddedResource Include="Images\IndividualForms\NewDiagnosis\StomachCramp.png" />
+    <EmbeddedResource Include="Images\IndividualForms\NewDiagnosis\Teen.png" />
+    <EmbeddedResource Include="Images\IndividualForms\NewDiagnosis\ThreeDays.png" />
+    <EmbeddedResource Include="Images\IndividualForms\NewDiagnosis\Thrush.png" />
+    <EmbeddedResource Include="Images\IndividualForms\NewDiagnosis\Tiredness.png" />
+    <EmbeddedResource Include="Images\IndividualForms\NewDiagnosis\Tired_Eyes.png" />
+    <EmbeddedResource Include="Images\IndividualForms\NewDiagnosis\TookMedicine.png" />
+    <EmbeddedResource Include="Images\IndividualForms\NewDiagnosis\Tooth_Ache.png" />
+    <EmbeddedResource Include="Images\IndividualForms\NewDiagnosis\WaitingForGP.png" />
+    <EmbeddedResource Include="Images\IndividualForms\NewDiagnosis\Wind.png" />
+    <EmbeddedResource Include="Images\IndividualForms\Personal\BloodTest.png" />
+    <EmbeddedResource Include="Images\IndividualForms\Personal\Care_Call.png" />
+    <EmbeddedResource Include="Images\IndividualForms\Personal\CognitiveTherapy.png" />
+    <EmbeddedResource Include="Images\IndividualForms\Personal\Dietary_Plan.png" />
+    <EmbeddedResource Include="Images\IndividualForms\Personal\PrivatePrescription.png" />
+    <EmbeddedResource Include="Images\IndividualForms\Personal\Vitamin.png" />
+    <EmbeddedResource Include="Images\OtherButtons\Accept.png" />
+    <EmbeddedResource Include="Images\OtherButtons\Business.png" />
+    <EmbeddedResource Include="Images\OtherButtons\Consultation.png" />
+    <EmbeddedResource Include="Images\OtherButtons\Enter.png" />
+    <EmbeddedResource Include="Images\OtherButtons\Facebook_Login.png" />
+    <EmbeddedResource Include="Images\OtherButtons\Feedback.png" />
+    <EmbeddedResource Include="Images\OtherButtons\Google_Login.png" />
+    <EmbeddedResource Include="Images\OtherButtons\Home.png" />
+    <EmbeddedResource Include="Images\OtherButtons\Messenger.png" />
+    <EmbeddedResource Include="Images\OtherButtons\No.png" />
+    <EmbeddedResource Include="Images\OtherButtons\Other.png" />
+    <EmbeddedResource Include="Images\OtherButtons\Problem.png" />
+    <EmbeddedResource Include="Images\OtherButtons\Professional.png" />
+    <EmbeddedResource Include="Images\OtherButtons\Send.png" />
+    <EmbeddedResource Include="Images\OtherButtons\Settings.png" />
+    <EmbeddedResource Include="Images\OtherButtons\Submit.png" />
+    <EmbeddedResource Include="Images\OtherButtons\Terms.png" />
+    <EmbeddedResource Include="Images\OtherButtons\Yes.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.SignalR.Client" Version="3.1.8" />
+    <PackageReference Include="Microsoft.AspNetCore.SignalR.Protocols.NewtonsoftJson" Version="3.1.8" />
+    <PackageReference Include="MySqlConnector" Version="1.0.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="Stripe.net" Version="39.16.0" />
+    <PackageReference Include="Xamarin.Auth" Version="1.7.0" />
+    <PackageReference Include="Xamarin.Forms" Version="4.8.0.1269" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.5.3.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Forms\AboutMedicine\About_Medicine.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Forms\ANE\ANE.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Forms\Asthma_COPD\Asthma_COPD.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Forms\BookAReview\BookAReview.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Forms\Existing Condition\Existing_Condition.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Forms\GetInvolved\Get_Involved.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Forms\How_To\How_To.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Forms\New Diagnosis\New_Diagnosis.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="LandingPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Landing\Business.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Landing\Family.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Landing\HealthPro.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Landing\Home.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Landing\NewUser.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Login_Options.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Subscription\CancelSubscription.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Subscription\Subscriptions.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

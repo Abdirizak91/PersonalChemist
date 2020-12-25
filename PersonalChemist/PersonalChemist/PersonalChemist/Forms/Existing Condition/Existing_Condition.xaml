@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PersonalChemist.Forms.Existing_Condition.Existing_Condition">
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid/>
+            <Grid/>
+            <Grid/>
+            <Grid/>
+            <Label Text="You can improve your existing condition."
+                VerticalOptions="Start" 
+                HorizontalOptions="CenterAndExpand" />
+            <Grid VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+                <StackLayout>
+                    <Label Text="We can help you achieve greater knowledge."/>
+                    <Label Text="E.g; Reducing sugar levels while taking medicines, etc."/>
+
+                    <Label Text="Pick the main condition you want to discuss"/>
+
+                    <Label Text="You will have plenty of time to talk about others as well"/>
+                
+                <Grid>
+                    <RelativeLayout>
+                        <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+                            <Grid x:Name="FirstSymptomSection">
+                                <StackLayout Orientation="Horizontal">
+                                    <ImageButton x:Name="Heart" Source="HeartDisorders.png" WidthRequest="100" HeightRequest="100" BackgroundColor="Transparent" Clicked="Heart_Clicked"/>
+                                    <ImageButton x:Name="Diabetes" Source="Diabetes.png" WidthRequest="100" HeightRequest="100" BackgroundColor="Transparent" Clicked="Diabetes_Clicked"/>
+                                    <ImageButton x:Name="Asthma" Source="AsthmaCOPD.png" WidthRequest="100" HeightRequest="100" BackgroundColor="Transparent" Clicked="Asthma_Clicked"/>
+                                    <ImageButton x:Name="HighBloodPressure" Source="HighBloodPressure.png" WidthRequest="100" HeightRequest="100" BackgroundColor="Transparent" Clicked="HighBloodPressure_Clicked"/>
+                                </StackLayout>
+                            </Grid>
+
+                            <Grid>
+                                    <StackLayout>
+                                        
+                                        <Grid>
+                                    <StackLayout x:Name="SecondSymptomSection">
+                                        <Grid>
+                                            <StackLayout Orientation="Horizontal">
+                                                <ImageButton x:Name="Pain" Source="Pain.png" WidthRequest="100" HeightRequest="100" BackgroundColor="Transparent" Clicked="Pain_Clicked"/>
+                                                <ImageButton x:Name="Anxiety" Source="Anxiety.png" WidthRequest="100" HeightRequest="100" BackgroundColor="Transparent" Clicked="Anxiety_Clicked"/>
+                                                <ImageButton x:Name="Arthritis" Source="Arthritis.png" WidthRequest="100" HeightRequest="100" BackgroundColor="Transparent" Clicked="Arthritis_Clicked"/>
+                                                <ImageButton x:Name="StomachCramp" Source="StomachCramp.png" WidthRequest="100" HeightRequest="100" BackgroundColor="Transparent" Clicked="StomachCramp_Clicked"/>
+                                            </StackLayout>
+                                        </Grid>
+                                    </StackLayout>
+                                        </Grid>
+
+
+                                        <Grid>
+                                    <StackLayout>
+                                        <Grid x:Name="SubmitSection">
+                                            <StackLayout>
+                                                        <ImageButton x:Name="SubmitButton" BackgroundColor="Transparent" Source="Submit.png" WidthRequest="100" Clicked="SubmitButton_Clicked"/>
+                                            </StackLayout>
+                                        </Grid>
+                                    </StackLayout>
+                                        </Grid>
+                                        
+                                    </StackLayout>
+                            </Grid>
+                            
+                            
+                           
+                        </StackLayout>
+                    </RelativeLayout>
+                </Grid>
+                </StackLayout>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

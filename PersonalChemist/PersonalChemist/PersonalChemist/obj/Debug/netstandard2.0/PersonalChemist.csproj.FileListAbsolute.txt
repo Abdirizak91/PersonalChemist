@@ -1,0 +1,30 @@
+C:\Users\Abdirizak J Ismail\Desktop\PersonalChemist\PersonalChemist\PersonalChemist\bin\Debug\netstandard2.0\PersonalChemist.deps.json
+C:\Users\Abdirizak J Ismail\Desktop\PersonalChemist\PersonalChemist\PersonalChemist\bin\Debug\netstandard2.0\PersonalChemist.dll
+C:\Users\Abdirizak J Ismail\Desktop\PersonalChemist\PersonalChemist\PersonalChemist\bin\Debug\netstandard2.0\ref\PersonalChemist.dll
+C:\Users\Abdirizak J Ismail\Desktop\PersonalChemist\PersonalChemist\PersonalChemist\bin\Debug\netstandard2.0\PersonalChemist.pdb
+C:\Users\Abdirizak J Ismail\Desktop\PersonalChemist\PersonalChemist\PersonalChemist\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Abdirizak J Ismail\Desktop\PersonalChemist\PersonalChemist\PersonalChemist\obj\Debug\netstandard2.0\Forms\AboutMedicine\About_Medicine.xaml.g.cs
+C:\Users\Abdirizak J Ismail\Desktop\PersonalChemist\PersonalChemist\PersonalChemist\obj\Debug\netstandard2.0\Forms\ANE\ANE.xaml.g.cs
+C:\Users\Abdirizak J Ismail\Desktop\PersonalChemist\PersonalChemist\PersonalChemist\obj\Debug\netstandard2.0\Forms\Asthma_COPD\Asthma_COPD.xaml.g.cs
+C:\Users\Abdirizak J Ismail\Desktop\PersonalChemist\PersonalChemist\PersonalChemist\obj\Debug\netstandard2.0\Forms\BookAReview\BookAReview.xaml.g.cs
+C:\Users\Abdirizak J Ismail\Desktop\PersonalChemist\PersonalChemist\PersonalChemist\obj\Debug\netstandard2.0\Forms\Existing Condition\Existing_Condition.xaml.g.cs
+C:\Users\Abdirizak J Ismail\Desktop\PersonalChemist\PersonalChemist\PersonalChemist\obj\Debug\netstandard2.0\Forms\GetInvolved\Get_Involved.xaml.g.cs
+C:\Users\Abdirizak J Ismail\Desktop\PersonalChemist\PersonalChemist\PersonalChemist\obj\Debug\netstandard2.0\Forms\How_To\How_To.xaml.g.cs
+C:\Users\Abdirizak J Ismail\Desktop\PersonalChemist\PersonalChemist\PersonalChemist\obj\Debug\netstandard2.0\Forms\New Diagnosis\New_Diagnosis.xaml.g.cs
+C:\Users\Abdirizak J Ismail\Desktop\PersonalChemist\PersonalChemist\PersonalChemist\obj\Debug\netstandard2.0\LandingPage.xaml.g.cs
+C:\Users\Abdirizak J Ismail\Desktop\PersonalChemist\PersonalChemist\PersonalChemist\obj\Debug\netstandard2.0\Landing\Business.xaml.g.cs
+C:\Users\Abdirizak J Ismail\Desktop\PersonalChemist\PersonalChemist\PersonalChemist\obj\Debug\netstandard2.0\Landing\HealthPro.xaml.g.cs
+C:\Users\Abdirizak J Ismail\Desktop\PersonalChemist\PersonalChemist\PersonalChemist\obj\Debug\netstandard2.0\Landing\Home.xaml.g.cs
+C:\Users\Abdirizak J Ismail\Desktop\PersonalChemist\PersonalChemist\PersonalChemist\obj\Debug\netstandard2.0\Landing\NewUser.xaml.g.cs
+C:\Users\Abdirizak J Ismail\Desktop\PersonalChemist\PersonalChemist\PersonalChemist\obj\Debug\netstandard2.0\Login_Options.xaml.g.cs
+C:\Users\Abdirizak J Ismail\Desktop\PersonalChemist\PersonalChemist\PersonalChemist\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Abdirizak J Ismail\Desktop\PersonalChemist\PersonalChemist\PersonalChemist\obj\Debug\netstandard2.0\Subscription\CancelSubscription.xaml.g.cs
+C:\Users\Abdirizak J Ismail\Desktop\PersonalChemist\PersonalChemist\PersonalChemist\obj\Debug\netstandard2.0\Subscription\Subscriptions.xaml.g.cs
+C:\Users\Abdirizak J Ismail\Desktop\PersonalChemist\PersonalChemist\PersonalChemist\obj\Debug\netstandard2.0\PersonalChemist.AssemblyInfoInputs.cache
+C:\Users\Abdirizak J Ismail\Desktop\PersonalChemist\PersonalChemist\PersonalChemist\obj\Debug\netstandard2.0\PersonalChemist.AssemblyInfo.cs
+C:\Users\Abdirizak J Ismail\Desktop\PersonalChemist\PersonalChemist\PersonalChemist\obj\Debug\netstandard2.0\PersonalChemist.csproj.CoreCompileInputs.cache
+C:\Users\Abdirizak J Ismail\Desktop\PersonalChemist\PersonalChemist\PersonalChemist\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Abdirizak J Ismail\Desktop\PersonalChemist\PersonalChemist\PersonalChemist\obj\Debug\netstandard2.0\PersonalChemist.dll
+C:\Users\Abdirizak J Ismail\Desktop\PersonalChemist\PersonalChemist\PersonalChemist\obj\Debug\netstandard2.0\ref\PersonalChemist.dll
+C:\Users\Abdirizak J Ismail\Desktop\PersonalChemist\PersonalChemist\PersonalChemist\obj\Debug\netstandard2.0\PersonalChemist.pdb
+C:\Users\Abdirizak J Ismail\Desktop\PersonalChemist\PersonalChemist\PersonalChemist\obj\Debug\netstandard2.0\PersonalChemist.csprojAssemblyReference.cache
